@@ -1,0 +1,23 @@
+﻿#navigation ul {
+	list-style: none;
+	}
+	
+#navigation li {
+	background: #ccc;
+	border-left: 1px solid #999;
+	padding: 0;
+	}
+	
+#navigation a {
+	color: #666;
+	text-decoration: none;
+	}
+	
+#navigation a:hover {
+	color: #333;
+	}
+	
+#navigation #currentpage a {
+	background: #fff;
+	color: #333;
+	}

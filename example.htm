@@ -1,0 +1,21 @@
+﻿<html>  
+<head>  
+    <script src="./libs/jquery.js"></script>  
+</head>  
+<body>  
+    <div id="info">Загрузка...</div>  
+    <script>  
+        function json_example()  
+        {  
+            $.getJSON('json.php', function(data) {  
+                s  = "";  
+                $.each(data, function(key, val) {   
+                    s = s + key+' => ' + val + '<br/>'   
+                });  
+                $("#info").html(s);  
+            });  
+        }  
+        setInterval(json_example, 1000);  
+    </script>  
+</body>  
+</html>  

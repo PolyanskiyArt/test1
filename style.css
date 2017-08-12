@@ -1,0 +1,144 @@
+﻿html, body{height: 100%}
+
+#main{
+padding:0px 0px 0px 0px;
+top:0px;
+margin: 0 auto;
+width:90%;
+background:  #FFF;
+bottom:0;
+min-height: 100%
+
+}
+#modzakaz{
+padding:0px 0px 0px 0px;
+margin: 0 auto;
+width:100%;
+background:  #FFF;
+}
+
+#header{
+background:  #FFF;
+ 
+ width:100%;
+ height:120px;
+ text-align:right;
+ font-size:24px;
+ font-family:Times;
+ color:#00E;
+	
+
+}
+#left_menu{
+ background:#FFF;
+ float:left;
+ width:263px;
+ color:#FFFFFF;
+ font-size:18px;
+
+}
+#content{
+ font-size:17px;
+ font-family:Arial;
+text-align: justify;
+text-indent:2em;
+color:#004;
+ background:#FFF;
+ pozition:relative;
+ padding-left:280px;
+padding-right:30px;
+ width:100%-300px;
+// text-align:center;
+}
+#footer{
+ background:#3e4982;
+ clear:both;
+ width:100%;
+ height:28px;
+ text-align:center;
+ color:#FFFFFF;
+ font-size:14px;
+ 
+}
+
+.tbl {
+	    *border-collapse: collapse; /* Для IE7 и страше */
+	    border-spacing: 0;
+border-bottom: 2px solid #3e4982;
+background: #fff;
+ text-align: center /* Выравнивание по центру */
+
+	}
+
+.tbl TH {
+background: #3e4982;
+color: #0ff;
+ padding: 3px; /* Поля вокруг текста */
+ }
+
+.tbl th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+
+}
+
+.tbl th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}     
+ // Logo
+#logo
+	       {
+		 width:50px;
+		position: absolute;
+		left: 10px;
+		top: 30px;
+	       }	
+
+
+h2 {
+	font-family: Arial, Sans-Serif; /* Тип шрифта */
+	color:#004;
+	font-size: 18px; /* Размер */
+}
+h3 {
+	font-family: Arial, Sans-Serif; /* Тип шрифта */
+	color:#004;
+	font-size: 14px; /* Размер */
+}
+
+
+.table-stat {border-bottom: 1px dashed; border-color: #004; text-align:justify; width: 100%;  margin: 5px 0px 5px 0px}
+.table-stat tr td{border: none; padding: 5px; font-size: 14px;}
+.table-stat h3{text-align:center;}
+.table-stat h3 a{text-decoration:none; color:#004;}
+.table-stat h3 a:hover{text-decoration:none; color:#00A;}
+a.btn_zakaz  {     
+	background-image: url(./images/button1.png);
+	background-repeat:none;                                                                                              
+	color: #FAFAFF;
+	display: inline-block;
+	font-size: 18px;
+	font-family: serif; /* Шрифт с засечками */ 
+	align:center;
+	text-align: center;
+	height: 65px;
+	width:230px;
+	display:table-cell;
+	vertical-align:middle;
+	padding: 0px 0px 7px 0px;
+	text-decoration: none;
+
+}
+
+a.btn_zakaz:hover {
+   color: #FAFAFF;
+	background-image: url(./images/button2.png);
+}
+ a.btn_zakaz:hover span {
+   background-position: 0% -33px;
+   color: #FFF;
+}
+

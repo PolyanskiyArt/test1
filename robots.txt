@@ -1,0 +1,10 @@
+﻿User-agent: *
+ allow: /
+ Sitemap: http://www.umstudenta.ru/sitemap.xml
+ Disallow: /uploads
+ Disallow: /admin_tools
+ Disallow: /cgi-bin
+ Disallow: /libs/rest
+ Host: www.umstudenta.ru 
+
+

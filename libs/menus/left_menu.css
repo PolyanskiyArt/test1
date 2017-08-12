@@ -1,0 +1,32 @@
+﻿li A:link { 
+    text-decoration: none;
+ color: #bac0fb;
+
+   } 
+li A:visited {
+ text-decoration: none;
+color: #bac0fb;} 
+li A:active {
+ color:2337f4;
+ text-decoration: none; 
+
+}
+li A:hover {
+    text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
+    color: #2337f4; /* Цвет ссылки */
+   } 
+
+.spiski {
+ 
+  list-style-type: none; 
+   color:#66F; 
+ font-family: Georgia, serif;
+ font-style: italic;
+ line-height: 1.5em;
+
+} 
+
+.ico { 
+  margin-top: 2px; 
+  padding: 0px 0px 0px 0px; 
+} 
